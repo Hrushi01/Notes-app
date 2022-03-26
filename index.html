@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Poppins&family=Sacramento&display=swap" rel="stylesheet">
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Notes</title>
+</head>
+
+<body>
+
+    <section class="">
+
+
+        <nav class="">
+            <h2>Notes</h2>
+            <div class="buttons">
+                <button class="new" onclick="newNote()">
+                    + Add Note
+                </button>
+            </div>
+        </nav>
+
+        <div id="notes">
+            <!-- <div class="note">
+                <input placeholder="title here" type="text" class="title" dataid="1" autocapitalize="sentences">
+                <textarea placeholder="content here" cols="30" rows="10" dataid="1" class="content"></textarea>
+                <i class="fa-solid fa-trash" dataid="7"></i>
+            </div> -->
+        </div>
+
+        <div class="toggle">
+
+            <button class="dark-btn">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <button class="new-sm-size" onclick="newNote()">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+
+        </div>
+
+        <footer>
+            <p><a href="https://github.com/ankitojha08" target="_blank">made by Hrushikesh Sunil Ambike </a> </p>
+        </footer>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
