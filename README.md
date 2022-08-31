@@ -29,5 +29,5 @@
 - Javascript
 ---
 __
-##### Made by  [Ankit Ojha 🐺](https://github.com/ankitojha08)
+
 __         
